@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 77</title>
+    <style>
+        body {
+            background: #0069FF;
+            color: #97B8FF;
+            text-align: center;
+        }
+        *::selection {
+            background: #FFC456;
+            color: #FF56A4;
+        }
+        a {
+            color: #749DFF;
+        }
+        a:hover {
+            color: #97B8FF;
+        }
+    </style>
+</head>
+<body>
+    <h1>VS Code</h1>
+    <p>VS Code (or Visual Studio Code) is an IDE(integrated development environment) that provides you a code editor, syntax hylighting, and more. It also has some extensions you can download. To instal VS Code go <a href="https://code.visualstudio.com/">Here</a> and click the download button.</p>
+    <h1>Console</h1>
+    <p>The console is a tool that you can use to test your code. To open the console, right click and click inspect and then go to the console. Console allows you to see if certain things are working in your code. In the console you can type any javascript you want. But the more preffered way is to use <code>console.log("Console");</code>. You can also do things like <code>console.error("this is an error.");</code>. Check the console to see some things I have done using it.</p>
+    <script>
+        console.log("Console"); //Puts "console" into the console
+        console.error("This is an error."); //Makes an error "this is an error" appear in the console
+        const first = "Anay";
+        console.log(first);
+        const second = "Sehgal";
+        console.log(second);
+        const full = `${first} ${second}`; //This is a template literal. It uses `` instead of "" and anytime we want to add a variable to the text we can just do ${name}.
+        console.log(full);
+        const num1 = 5;
+        console.log(num1);
+        const num2 = 10;
+        console.log(num2);
+        const power = Math.pow(num1, num2); //Gets the power of 5 and 10
+        console.log(power);
+        const squareRoot = Math.sqrt(num1, num2); //Gets the squar root of 5 and 10
+        console.log(squareRoot);
+        const smaller = Math.min(num1, num2); //Gets the smaller number of 5 and 10
+        console.log(smaller);
+        const bigger = Math.max(num1, num2); //Gets the bigger number of 5 and 10
+        console.log(bigger);
+    </script>
+</body>
+</html>
